@@ -5,6 +5,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: #262a2f;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0px;
+    color: #ffffff;
+}
+
 .flex {
     display: flex;
     align-items: center;

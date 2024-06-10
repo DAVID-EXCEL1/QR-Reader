@@ -18,9 +18,8 @@ domReady(function () {
             ++countResults;
             lastResult = decodedText;
 
-            alert("You Qr is :" + decodedText, decodedResult);
-
-            myqr.innerHTML = `you can scan ${countResults}: ${decodedText}`;
+            alert("You QR is :" + decodedText, decodedResult);
+            myqr.innerHTML = `Your QR scan ${countResults}: ${decodedText}`;
         }
     }
 
