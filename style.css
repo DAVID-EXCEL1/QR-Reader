@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color: #262a2f;
+    background-color: #8AB4F8;
 }
 
 h1 {
     text-align: center;
     margin: 50px 0px;
-    color: #ffffff;
+    color: #3a5c94;
 }
 
 .flex {
@@ -23,4 +23,9 @@ h1 {
 
 #qrReader {
     width: 500px;
+    border: 1px solid #3a5c94;
+}
+
+#qrResult {
+    z-index: 1000;
 }
