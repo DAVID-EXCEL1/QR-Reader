@@ -31,3 +31,4 @@ domReady(function () {
     )
     htmlscanner.render(onScanSuccess);
 })
+
